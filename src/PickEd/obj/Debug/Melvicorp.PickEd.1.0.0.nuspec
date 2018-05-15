@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Melvicorp.PickEd</id>
+    <version>1.0.0</version>
+    <authors>Miguel A. Castro</authors>
+    <owners>Miguel A. Castro</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package includes an engine conforming to .NET Standard 2 that provides the functionality behind a line editor that mimics that of the very powerful old Pick editor.</description>
+    <copyright>2018 Melvicorp LLC</copyright>
+    <tags>netstandard netcore netfw pick editor</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\Projects\Freeware\ED.Net\src\PickEd\bin\Debug\netstandard2.0\PickEd.dll" target="lib\netstandard2.0\PickEd.dll" />
+  </files>
+</package>

@@ -1,0 +1,8 @@
+F:\Projects\Freeware\ED.Net\src\PickEd\bin\Debug\netstandard2.0\PickEd.deps.json
+F:\Projects\Freeware\ED.Net\src\PickEd\bin\Debug\netstandard2.0\PickEd.dll
+F:\Projects\Freeware\ED.Net\src\PickEd\bin\Debug\netstandard2.0\PickEd.pdb
+F:\Projects\Freeware\ED.Net\src\PickEd\obj\Debug\netstandard2.0\PickEd.csproj.CoreCompileInputs.cache
+F:\Projects\Freeware\ED.Net\src\PickEd\obj\Debug\netstandard2.0\PickEd.AssemblyInfoInputs.cache
+F:\Projects\Freeware\ED.Net\src\PickEd\obj\Debug\netstandard2.0\PickEd.AssemblyInfo.cs
+F:\Projects\Freeware\ED.Net\src\PickEd\obj\Debug\netstandard2.0\PickEd.dll
+F:\Projects\Freeware\ED.Net\src\PickEd\obj\Debug\netstandard2.0\PickEd.pdb

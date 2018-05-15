@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Miguel A. Castro</Authors>
+    <Company>Melvicorp LLC</Company>
+    <Product>PickEd Engine</Product>
+    <Description>This package includes an engine conforming to .NET Standard 2 that provides the functionality behind a line editor that mimics that of the very powerful old Pick editor.</Description>
+    <Copyright>2018 Melvicorp LLC</Copyright>
+    <PackageTags>netstandard netcore netfw pick editor</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageId>Melvicorp.PickEd</PackageId>
+  </PropertyGroup>
+
+</Project>
