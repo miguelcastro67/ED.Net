@@ -22,7 +22,7 @@ ED.net commands (note the [] signs only indicate a content and should not be lit
 - T
   Sets the current line counter to the top of the file.
 - L[xx]
-  ###
+
   Lists the next page of text lines based on the current page size (20 by default). If [xx] is specified, then [xx] number of lines are listed and the current page size is reset to [xx] number of lines.
 - R
 - D
