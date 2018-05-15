@@ -19,12 +19,46 @@ The 'PickEd' project is a .NET Standard 2.0 project and can be consumed by any k
 Editing a file will read into the editor's memory and position the line pointer at the top with a "." prompt ready for a command. Commands are not case sensitive but the documentation will show them in upper case for clarity.
 ED.net commands (note the [] signs only indicate a content and should not be literally typed:
 
+- .
+
+  Displays the current line.
+- {enter}
+
+  Displays the current line and increments the line number.
 - T
+
   Sets the current line counter to the top of the file.
 - L[xx]
 
   Lists the next page of text lines based on the current page size (20 by default). If [xx] is specified, then [xx] number of lines are listed and the current page size is reset to [xx] number of lines.
-- R
+- R[xx][/old/new
+
+  Performs a 'replace' operation.");
+  If 'R' is used on its own then you are given the opportunity to replace the entire line.  Specifying [xx] will perform the 'replace' operation for [xx] number of lines.
+
+  The 'old' and 'new' specify the text you want to replace and with what you it to be replaced.  The delimiter specified as '/' can be any character you like in order to use any other characters in the 'old' and 'new' text.  Specifying no 'old' text will insert the 'new' text at the beginning of the line(s).
+
+  Usage examples:
+
+     R/Using/Imports
+
+       Replaces all instances of 'Using' with the text 'Imports'.
+
+     R12/Using/Imports
+
+       Performs the same operation for the next 12 lines.
+
+     R5//''
+
+       Inserts two tick marks in front of of the next 5 lines.
+
+     R5..//
+
+       Inserts two slashes in front of the next five lines.
+
+     R.1/5/2008.01/05/2008
+     
+       Replaces the text '1/5/2008' with the text '01/05/2008'.
 - D
 - I
 - X
