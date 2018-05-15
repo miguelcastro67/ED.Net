@@ -59,11 +59,34 @@ ED.net commands (note the [] signs only indicate a content and should not be lit
      R.1/5/2008.01/05/2008
 
        Replaces the text '1/5/2008' with the text '01/05/2008'.
-- D
-- I
+- I[xx]
+
+  Places the editor into 'Insert' mode at a point immediately following the current line. Hitting {enter} on a line without typing any text will exit 'Insert' mode. Specifying [xx] will end 'Insert' mode after [xx] number of lines are inserted.
+- AL[xx]/text
+
+  Performs an append operation to a line or to [xx] number of lines.
+
+  The delimiter specified by the '/' can be any character in order to accomodate any text to be appended (similarly to the 'R' command).
+- D[xx]
+
+  Deletes the current line or [xx] number of lines.
 - X
+
+  Rolls back all changes since the last 'flip' (see the commands below).
 - F
+
+  Performs a 'flip' operation. 
+  
+  When any 'replace', 'insert', 'append', or 'delete' command is performed, the operations are not permanant in memory until they are 'flipped', so they can be rolled back using the 'X' command. Performing a 'flip' operation brings those chnges to permanent status. Note, permanent does not signify 'saved'.
 - FS
+
+  Performs a 'flip' operation followed by a 'save' operation.
 - FI
+
+  Performs a 'flip' operation followed by a 'save' operation; afterwhich the editor is exited.
 - EX
+
+  Exits the editor in the current state of the file. If the file has changed since it was initially read in, the user will receive a confirmation message.
 - ?
+
+  Displays help much like the one shown here on command from within the editor.
