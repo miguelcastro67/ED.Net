@@ -38,7 +38,7 @@ ED.net commands (note the [] signs only indicate a content and should not be lit
 
   The 'old' and 'new' specify the text you want to replace and with what you it to be replaced.  The delimiter specified as '/' can be any character you like in order to use any other characters in the 'old' and 'new' text.  Specifying no 'old' text will insert the 'new' text at the beginning of the line(s).
 
-  Usage examples:
+  ### Usage examples:
 
      R/Using/Imports
 
@@ -57,7 +57,7 @@ ED.net commands (note the [] signs only indicate a content and should not be lit
        Inserts two slashes in front of the next five lines.
 
      R.1/5/2008.01/05/2008
-     
+
        Replaces the text '1/5/2008' with the text '01/05/2008'.
 - D
 - I
